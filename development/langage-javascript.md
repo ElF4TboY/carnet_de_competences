@@ -6,19 +6,19 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- les `structures` de base du langage ❌ / ✔️
-- les normes `ecmascript` ❌ / ✔️
-- l'utilisation de l'`asynchrone` ❌ / ✔️
-- les spécifités du mot-clef `this` ❌ / ✔️
+- les `structures` de base du langage ✔️
+- les normes `ecmascript` ✔️
+- l'utilisation de l'`asynchrone` ✔️
+- les spécifités du mot-clef `this` ✔️
 
 ## 💻 Je code en Javascript
 
-### Un exemple de code commenté ❌ / ✔️
+### Un exemple de code commenté ✔️
 
 ```
 class Car {
   // permet de créer et de d'intialiser un objet
-  constructor(make: string, model: string, year: number) {
+  constructor(make, model, year) {
     (this.make = make), (this.model = model), (this.year = year);
   }
 
@@ -31,7 +31,7 @@ class Car {
 // class qui hérite de la parente
 class Suv extends Car {
 
-  constructor(make: string, model: string, year: number, offRoad: boolean) {
+  constructor(make, model, year, offRoad) {
     // héritage du constructor de la classe parente
     super(make, model, year);
 
